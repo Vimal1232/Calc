@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(back.jpg);
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.logic_one {
+  padding: 4vh;
+  border-radius: 10vh;
+  border: none;
+  background: #2a2c38;
+  color: #29a8ff;
+  font-size: 3vh;
+}
+
+table {
+  margin-top: -3vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #22252e;
+  border-radius: 2vh;
+  padding-bottom: 2vh;
+}
+tbody {
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+}
+
+tr {
+  display: flex;
+  gap: 3vh;
+}
+
+.logic_two {
+  height: 40vh;
+  width: 47.5vh;
+  background: #22252e;
+  border-radius: 2vh;
+  border: none;
+  color: #e6e6e6;
+  padding: 2vh;
+  font-size: 8vh;
+}
+
+.ok {
+  background: #29a8ff;
+  color: #2a2c38;
+}
+
+.gg {
+  font-size: 2.5vh;
+}

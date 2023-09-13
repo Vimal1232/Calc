@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calc</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="flex">
+      <form name="form1">
+        <input class="logic_two" type="text" name="calculator" />
+        <br />
+        <table>
+          <tr>
+            <td>
+              <input
+                class="logic_one"
+                type="button"
+                value="9"
+                onclick="document.form1.calculator.value += '9'"
+              />
+            </td>
+            <td>
+              <input
+                class="logic_one"
+                type="button"
+                value="8"
+                onclick="document.form1.calculator.value += '8'"
+              />
+            </td>
+            <td>
+              <input
+                class="logic_one"
+                type="button"
+                value="7"
+                onclick="document.form1.calculator.value += '7'"
+              />
+            </td>
+            <td>
+              <input
+                class="logic_one ok"
+                type="button"
+                value="/"
+                onclick="document.form1.calculator.value += '/'"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input
+                class="logic_one"
+                type="button"
+                value="6"
+                onclick="document.form1.calculator.value += '6'"
+              />
+            </td>
+            <td>
+              <input
+                class="logic_one"
+                type="button"
+                value="5"
+                onclick="document.form1.calculator.value += '5'"
+              />
+            </td>
+            <td>
+              <input
+                class="logic_one"
+                type="button"
+                value="4"
+                onclick="document.form1.calculator.value += '4'"
+              />
+            </td>
+            <td>
+              <input
+                class="logic_one ok"
+                type="button"
+                value="*"
+                onclick="document.form1.calculator.value += '*'"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input
+                class="logic_one"
+                type="button"
+                value="3"
+                onclick="document.form1.calculator.value += '3'"
+              />
+            </td>
+            <td>
+              <input
+                class="logic_one"
+                type="button"
+                value="2"
+                onclick="document.form1.calculator.value += '2'"
+              />
+            </td>
+            <td>
+              <input
+                class="logic_one"
+                type="button"
+                value="1"
+                onclick="document.form1.calculator.value += '1'"
+              />
+            </td>
+            <td>
+              <input
+                class="logic_one ok gg"
+                type="button"
+                value="+"
+                onclick="document.form1.calculator.value += '+'"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input
+                class="logic_one"
+                type="button"
+                value="0"
+                onclick="document.form1.calculator.value += '0'"
+              />
+            </td>
+            <td>
+              <input
+                class="logic_one"
+                type="button"
+                value="c"
+                onclick="document.form1.calculator.value = ''"
+              />
+            </td>
+            <td>
+              <input
+                class="logic_one ok"
+                type="button"
+                value="="
+                onclick="document.form1.calculator.value = eval(document.form1.calculator.value)"
+              />
+            </td>
+            <td>
+              <input
+                class="logic_one ok"
+                type="button"
+                value="-"
+                onclick="document.form1.calculator.value += '-'"
+              />
+            </td>
+          </tr>
+        </table>
+      </form>
+    </div>
+  </body>
+</html>
